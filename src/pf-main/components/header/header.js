@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import HeaderMobile from "./header-mobile";
 
 function Header() {
-  const [isDesktop, setIsDesktop] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(true);
   const handleResize = () => {
     setIsDesktop(window.innerWidth > 768);
   };
@@ -24,7 +24,7 @@ function Header() {
     navigate("/home");
   };
 
-  return { isDesktop } ? (
+  return isDesktop ? (
     <div className="header-container">
       <div className="home-button" onClick={handleHome}>
         <img src="images\Logo.png" alt="ProfilePic" className="logo-size" />
