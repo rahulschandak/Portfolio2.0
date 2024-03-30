@@ -1,0 +1,51 @@
+.header-container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .home-button {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo-size {
+  width: 3.125rem;
+  height: auto;
+}
+
+.logo-font-style {
+  font-size: 100px;
+}
+
+.menu-items {
+  display: flex;
+  align-items: baseline;
+  font-size: 1.5rem;
+  font-family: "Alegreya SC", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  a.active {
+    font-size: larger;
+    font-weight: bold;
+    color: #0500ff;
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1rem;
+    a {
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+    }
+  }
+}
