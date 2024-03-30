@@ -33,13 +33,6 @@
     color: black;
   }
 
-  a.active {
-    font-size: larger;
-    font-weight: bold;
-    color: #0500ff;
-    text-decoration: underline;
-  }
-
   @media screen and (max-width: 1024px) {
     font-size: 1rem;
     a {
@@ -89,5 +82,13 @@
 
 .navbar a {
   text-decoration: none;
+  color: black;
   font-size: 1.5rem;
+}
+
+a.active {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0500ff;
+  /* text-decoration: underline; */
 }
