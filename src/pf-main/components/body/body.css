@@ -1,6 +1,6 @@
 .body-container {
   display: flex;
   flex-direction: column;
-  background-color: rgba(5, 0, 255, 0.2);
-  height:100vh;
+  background-color: #cdccff;
+  height: 100vh;
 }
