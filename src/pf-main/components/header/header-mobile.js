@@ -12,7 +12,7 @@ import {
 
 function HeaderMobile() {
   let navigate = useNavigate();
-  const [showNavBar, setShowNavBar] = useState(true);
+  const [showNavBar, setShowNavBar] = useState(false);
 
   const handleHome = () => {
     navigate("/home");
