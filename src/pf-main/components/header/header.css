@@ -54,7 +54,7 @@
   border-style: solid;
   border-color: #707070;
   position: absolute;
-  top: 7rem;
+  top: 7.1rem;
   right: 0;
   width: 75%;
   height: 100vh;
@@ -90,5 +90,4 @@ a.active {
   font-size: 2rem;
   font-weight: bold;
   color: #0500ff;
-  /* text-decoration: underline; */
 }

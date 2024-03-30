@@ -6,10 +6,11 @@ import WorkScreen from "../../pages/workScreen.js/work-screen";
 import AboutScreen from "../../pages/aboutScreen/about-screen";
 import SkillsScreen from "../../pages/skillsScreen/skills-screen";
 import ContactsScreen from "../../pages/contactScreen/contact-screen";
+import "./body.css";
 
 function Body() {
   return (
-    <div>
+    <div className="body-container">
       <Routes>
         <Route path="" element={<HomeScreen />} />
         <Route path="/home" element={<HomeScreen />} />
