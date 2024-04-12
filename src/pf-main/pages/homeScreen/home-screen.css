@@ -1,17 +1,59 @@
 .page-container {
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
-    margin-left: 10%;
+    height: 80vh;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 50%;
+    justify-content: center;
+    width: 40%;
+    padding-left: 10%;
 }
 
 .padding-top {
     padding-top: 0.5rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.img-style {
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.social-media-style {
+    height: 2rem;
+    width: 2rem;
+    padding-right: 3rem;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.button-style {
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    width: 50%;
+    font-family: "Alegreya SC", serif;
+    color: black;
+    font-weight: bold;
 }
