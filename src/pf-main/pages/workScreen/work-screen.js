@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import ScreenSizeContext from "../../components/common/screen-size";
 
-function ProjectScreen() {
+function WorkScreen() {
   const { isDesktop } = useContext(ScreenSizeContext);
-  return isDesktop ? ( <div>Projects Screen</div> ) : ( <div>Projects Screen Mobile</div> );
+  return isDesktop ? <div>WorkScreen</div> : <div>WorkScreen Mobile</div>;
 }
-export default ProjectScreen;
+export default WorkScreen;

@@ -1,0 +1,17 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+}
+
+.padding-top {
+    padding-top: 0.5rem;
+}

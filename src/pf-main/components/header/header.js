@@ -1,25 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
 import BodyLabel from "../common/body-label";
 import { useNavigate } from "react-router-dom";
 import HeaderMobile from "./header-mobile";
+import ScreenSizeContext from "../common/screen-size";
 
 function Header() {
-  const [isDesktop, setIsDesktop] = useState(true);
-  const handleResize = () => {
-    setIsDesktop(window.innerWidth > 768);
-  };
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
+  const { isDesktop } = useContext(ScreenSizeContext);
   let navigate = useNavigate();
-
   const handleHome = () => {
     navigate("/home");
   };

@@ -2,11 +2,11 @@ import { Routes, Route } from "react-router";
 import HomeScreen from "../../pages/homeScreen/home-screen";
 import EducationScreen from "../../pages/educationScreen/education-screen";
 import ProjectScreen from "../../pages/projectsScreen/project-screen";
-import WorkScreen from "../../pages/workScreen.js/work-screen";
+import WorkScreen from "../../pages/workScreen/work-screen";
 import AboutScreen from "../../pages/aboutScreen/about-screen";
 import SkillsScreen from "../../pages/skillsScreen/skills-screen";
 import ContactsScreen from "../../pages/contactScreen/contact-screen";
-import "./body.css";
+import "./routes.css";
 
 function Body() {
   return (
