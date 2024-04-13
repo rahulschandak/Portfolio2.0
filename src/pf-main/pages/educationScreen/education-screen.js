@@ -5,7 +5,6 @@ import "./education-screen.css";
 
 function EducationScreen() {
   const { isDesktop } = useContext(ScreenSizeContext);
-
   const edData = [
     {
       university: "Northeastern University | Pursuing",
@@ -30,25 +29,29 @@ function EducationScreen() {
       ],
     },
   ];
-  
+
   return isDesktop ? (
     <>
       <BodyLabel className="h3 header-style">My Education</BodyLabel>
       <div className="card-container">
         {edData.map((education) => (
           <div className="card-style">
-            <img alt="University" src={education.image} className="image-style"></img>
+            <img
+              alt="University"
+              src={education.image}
+              className="image-style"
+            ></img>
             <div className="univ-name-style">
               <BodyLabel>{education.university}</BodyLabel>
             </div>
-  
+
             {education.details.map((data) => (
               <div className="univ-details-style">
                 <BodyLabel className="h4 field-style">{data.field}: </BodyLabel>
                 <BodyLabel className="h4 value-style">{data.value}</BodyLabel>
               </div>
             ))}
-  
+
             <div className="transcript-style">
               <BodyLabel className="h4">Transcript</BodyLabel>
             </div>
@@ -57,7 +60,34 @@ function EducationScreen() {
       </div>
     </>
   ) : (
-    <div>Education Page Mobile</div>
+    <>
+      <BodyLabel className="h3 header-style">My Education</BodyLabel>
+      <div className="card-container-mobile">
+        {edData.map((education) => (
+          <div className="card-style-mobile">
+            <img
+              alt="University"
+              src={education.image}
+              className="image-style"
+            ></img>
+            <div className="univ-name-style">
+              <BodyLabel>{education.university}</BodyLabel>
+            </div>
+
+            {education.details.map((data) => (
+              <div className="univ-details-style">
+                <BodyLabel className="h4 field-style">{data.field}: </BodyLabel>
+                <BodyLabel className="h4 value-style">{data.value}</BodyLabel>
+              </div>
+            ))}
+
+            <div className="transcript-style">
+              <BodyLabel className="h4">Transcript</BodyLabel>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
 export default EducationScreen;
