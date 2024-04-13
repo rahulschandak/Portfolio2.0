@@ -13,6 +13,24 @@ function Header() {
     navigate("/home");
   };
 
+  const skillsData = [
+    {
+      field: "Degree", value: "Master of Science"
+    },
+    {
+      field: "Major", value: "Computer Science"
+    },
+    {
+      field: "Duration", value: "Sep 2022 to Dec 2024"
+    },
+    {
+      field: "Location", value: "Boston, MA"
+    },
+    {
+      field: "GPA", value: "3.91/ 4.0"
+    }
+  ];
+
   return isDesktop ? (
     <div className="header-container">
       <div className="home-button" onClick={handleHome}>
