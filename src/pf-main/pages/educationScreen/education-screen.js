@@ -37,7 +37,7 @@ function EducationScreen() {
       <div className="card-container">
         {edData.map((education) => (
           <div className="card-style">
-            <img src={education.image} className="img-style"></img>
+            <img alt="University" src={education.image} className="img-style"></img>
             <div className="univ-name-style">
               <BodyLabel>{education.university}</BodyLabel>
             </div>
