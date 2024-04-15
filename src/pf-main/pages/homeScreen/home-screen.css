@@ -1,59 +1,90 @@
 .page-container {
-    display: flex;
-    flex-direction: row;
-    height: 80vh;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.page-container-mobile {
+  display: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    width: 40%;
-    padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 40%;
+  padding-left: 10%;
 }
 
+.text-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+
 .padding-top {
-    padding-top: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.image-container-mobile {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .img-style {
-    height: 30rem;
-    justify-content: center;
-    align-items: center;
-    padding-left: 5%;
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+
+  @media screen and (max-width: 1024px) {
+    height: 20rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 15rem;
+  }
 }
 
 .social-media-style {
-    height: 2rem;
-    width: 2rem;
-    padding-right: 3rem;
+  height: 2rem;
+  width: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .social-media-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2rem;
 }
 
 .button-style {
-    border: 2px solid black;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
-    margin-top: 2rem;
-    width: 50%;
-    font-family: "Alegreya SC", serif;
-    color: black;
-    font-weight: bold;
+  border: 2px solid black;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  width: 50%;
+  font-family: "Alegreya SC", serif;
+  color: black;
+  font-weight: bold;
 }
