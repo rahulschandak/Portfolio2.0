@@ -55,8 +55,8 @@ function HomeScreen() {
         />
       </div>
       <div className="text-container-mobile">
-        <BodyLabel className="h2">Hello World,</BodyLabel>
-        <BodyLabel className="h2">I am Rahul Chandak</BodyLabel>
+        <BodyLabel className="h3">Hello World,</BodyLabel>
+        <BodyLabel className="h3">I am Rahul Chandak</BodyLabel>
         <BodyLabel className="body-text padding-top">
           A Master's in Computer Science student at NEU
         </BodyLabel>
