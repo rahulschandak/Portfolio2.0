@@ -1,10 +1,12 @@
 import React from "react";
 import "./skills-screen.css";
 import BodyLabel from "../../components/common/body-label";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 
 function SkillsScreen() {
-
-  const heading = "Tools and Frameworks I have worked with:";
+  const heading = " Tools and Frameworks I have worked with: ";
   const programmingLanguagesHeading = "1. Programming Languages";
   const databaseHeading = "2. Databases";
   const webTechnologiesHeading = "3. Web Technologies";
@@ -144,7 +146,10 @@ function SkillsScreen() {
 
   return (
     <div className="skills-container">
-      <BodyLabel className="h2 heading-style">{heading}</BodyLabel>
+      <BodyLabel className="h2 heading-style">
+        <FontAwesomeIcon icon={faScrewdriverWrench} /> &nbsp;
+        {heading}
+      </BodyLabel>
       <BodyLabel className="h3">{programmingLanguagesHeading}</BodyLabel>
       <div className="skills-style">
         {skillsProgLang.map((data) => (
