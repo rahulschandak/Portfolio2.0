@@ -1,15 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.70b53c59.css",
-    "main.js": "/static/js/main.918a78ed.js",
+    "main.css": "/static/css/main.d9f145cb.css",
+    "main.js": "/static/js/main.14cae4a0.js",
     "static/js/453.351bd18e.chunk.js": "/static/js/453.351bd18e.chunk.js",
+    "static/media/ReactJS.png": "/static/media/ReactJS.6386096f0aba87b07ddb.png",
+    "static/media/VS.png": "/static/media/VS.90b6c0813ce1a2092f3a.png",
+    "static/media/MongoDB.png": "/static/media/MongoDB.bf56b28a65f4439b2633.png",
+    "static/media/Jenkins.png": "/static/media/Jenkins.778741250484aeefab29.png",
+    "static/media/CSharp.png": "/static/media/CSharp.46852c039d1bc0ef9491.png",
+    "static/media/Bootstrap.png": "/static/media/Bootstrap.dd24b20885eaf3dc118b.png",
+    "static/media/AWS.png": "/static/media/AWS.2df478bb15e32bfca2f7.png",
+    "static/media/MySQLWorkbench.png": "/static/media/MySQLWorkbench.ef051bcbd0b1305c5267.png",
+    "static/media/GIT.png": "/static/media/GIT.44204e975a6872ac8267.png",
+    "static/media/Python.png": "/static/media/Python.92b9195086ff5c315c42.png",
+    "static/media/Node.png": "/static/media/Node.cea08bfd28afe73c259c.png",
+    "static/media/MySQL.png": "/static/media/MySQL.2a6f240c7155fc794880.png",
+    "static/media/Postman.png": "/static/media/Postman.83c52c0feff4e47c08eb.png",
+    "static/media/GitHub.png": "/static/media/GitHub.daca218181e4aa92c11e.png",
+    "static/media/Axure.png": "/static/media/Axure.aedff2147f132dabcf84.png",
+    "static/media/PLSQL.png": "/static/media/PLSQL.1c6230e037d4a365fddf.png",
+    "static/media/Docker.png": "/static/media/Docker.ebb6d2825e438307b8b6.png",
+    "static/media/CSS.png": "/static/media/CSS.a179d5934c471e199b02.png",
+    "static/media/JS.png": "/static/media/JS.167c1b632a867edbbbfc.png",
+    "static/media/IntelliJ.png": "/static/media/IntelliJ.4dc83c4da1a52559c9be.png",
+    "static/media/Kubernetes.png": "/static/media/Kubernetes.e265b08b37031f5a43b5.png",
+    "static/media/HTML.png": "/static/media/HTML.249333fa1e03c7349e32.png",
+    "static/media/Java.png": "/static/media/Java.89447c6d332baa49474f.png",
+    "static/media/TS.png": "/static/media/TS.225a582b8f8313c153eb.png",
     "index.html": "/index.html",
-    "main.70b53c59.css.map": "/static/css/main.70b53c59.css.map",
-    "main.918a78ed.js.map": "/static/js/main.918a78ed.js.map",
+    "main.d9f145cb.css.map": "/static/css/main.d9f145cb.css.map",
+    "main.14cae4a0.js.map": "/static/js/main.14cae4a0.js.map",
     "453.351bd18e.chunk.js.map": "/static/js/453.351bd18e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70b53c59.css",
-    "static/js/main.918a78ed.js"
+    "static/css/main.d9f145cb.css",
+    "static/js/main.14cae4a0.js"
   ]
 }

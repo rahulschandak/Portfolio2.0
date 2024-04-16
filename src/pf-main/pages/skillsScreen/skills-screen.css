@@ -1,0 +1,39 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.heading-style {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.skills-style {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 2%;
+}
+
+.image-style {
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+
+  @media screen and (max-width: 1024px) {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  /* @media screen and (max-width: 768px) {
+    height: 4rem;
+    width: 4rem;
+  } */
+}
