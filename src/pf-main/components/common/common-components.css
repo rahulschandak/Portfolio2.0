@@ -32,6 +32,10 @@
   font-style: normal;
   font-size: 3rem;
   padding-bottom: 0.5rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .h3 {
@@ -40,6 +44,10 @@
   font-style: normal;
   font-size: 2rem;
   padding-bottom: 0.5rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .h4 {

@@ -19,13 +19,14 @@
   margin-bottom: 2%;
 }
 
-.image-style {
+.image-style-skill {
   height: 8rem;
   width: 8rem;
   justify-content: center;
   align-items: center;
   margin-left: 2.5%;
   margin-right: 2.5%;
+  margin-bottom: 1%;
 
   @media screen and (max-width: 1024px) {
     height: 6rem;
