@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.univ-details-style {
+.work-details-style {
   display: flex;
   justify-content: space-around;
   font-size: 1rem;
@@ -36,10 +36,4 @@
   @media screen and (max-width: 1024px) {
     font-size: 1.2rem;
   }
-}
-
-.transcript-style {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 1.5rem;
 }

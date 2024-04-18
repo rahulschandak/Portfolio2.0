@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import ScreenSizeContext from "../../components/common/screen-size";
 import BodyLabel from "../../components/common/body-label";
 import "./education-screen.css";
+import Card from "../../components/common/card";
 
 function EducationScreen() {
   const { isDesktop } = useContext(ScreenSizeContext);
@@ -30,61 +31,26 @@ function EducationScreen() {
     },
   ];
 
-  return isDesktop ? (
+  return (
     <>
       <BodyLabel className="h3 header-style">My Education</BodyLabel>
-      <div className="card-container">
+      <div className={isDesktop ? "card-container" : "card-container-mobile"}>
         {edData.map((education) => (
-          <div className="card-style">
-            <img
-              alt="University"
-              src={education.image}
-              className="image-style"
-            ></img>
-            <div className="univ-name-style">
-              <BodyLabel>{education.university}</BodyLabel>
-            </div>
-
+          <Card img={education.image} title={education.university}>
             {education.details.map((data) => (
-              <div className="univ-details-style">
-                <BodyLabel className="h4 field-style">{data.field}: </BodyLabel>
-                <BodyLabel className="h4 value-style">{data.value}</BodyLabel>
-              </div>
+              <>
+                <div className="univ-details-style">
+                  <BodyLabel className="h4 field-style">
+                    {data.field}:
+                  </BodyLabel>
+                  <BodyLabel className="h4 value-style">{data.value}</BodyLabel>
+                </div>
+              </>
             ))}
-
             <div className="transcript-style">
               <BodyLabel className="h4">Transcript</BodyLabel>
             </div>
-          </div>
-        ))}
-      </div>
-    </>
-  ) : (
-    <>
-      <BodyLabel className="h3 header-style">My Education</BodyLabel>
-      <div className="card-container-mobile">
-        {edData.map((education) => (
-          <div className="card-style-mobile">
-            <img
-              alt="University"
-              src={education.image}
-              className="image-style"
-            ></img>
-            <div className="univ-name-style">
-              <BodyLabel>{education.university}</BodyLabel>
-            </div>
-
-            {education.details.map((data) => (
-              <div className="univ-details-style">
-                <BodyLabel className="h4 field-style">{data.field}: </BodyLabel>
-                <BodyLabel className="h4 value-style">{data.value}</BodyLabel>
-              </div>
-            ))}
-
-            <div className="transcript-style">
-              <BodyLabel className="h4">Transcript</BodyLabel>
-            </div>
-          </div>
+          </Card>
         ))}
       </div>
     </>

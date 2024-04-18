@@ -7,10 +7,10 @@ export const ScreenSizeProvider = ({ children }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth > 768); // Assuming desktop size is anything larger than 768px
+      setIsDesktop(window.innerWidth > 768); 
     };
 
-    handleResize(); // Initial check
+    handleResize(); 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);

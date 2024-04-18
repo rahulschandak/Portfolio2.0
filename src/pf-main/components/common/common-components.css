@@ -64,3 +64,46 @@
   font-style: normal;
   font-size: 1.5rem;
 }
+
+.title-style {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0rem 1rem 1rem 1rem;
+  text-align: center;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.25rem;
+  }
+}
+
+.image-style {
+  width: -webkit-fill-available;
+  height: min-content;
+  margin: 1.5rem 1.5rem 1rem 1.5rem;
+  border-radius: 5%;
+  padding: 0;
+}
+
+.card-style {
+  width: 30%;
+  height: auto;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #0050ff;
+  padding-bottom: 2%;
+
+  @media screen and (max-width: 1368px) {
+    width: 40%;
+  }
+}
+
+.card-style-mobile {
+  width: 80%;
+  height: fit-content;
+  border-radius: 5%;
+  border-style: solid;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+}
