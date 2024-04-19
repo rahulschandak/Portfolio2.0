@@ -153,25 +153,25 @@ function SkillsScreen() {
       <BodyLabel className="h3">{programmingLanguagesHeading}</BodyLabel>
       <div className="skills-style">
         {skillsProgLang.map((data) => (
-          <img className="image-style-skill" alt={data.name} src={data.image} />
+          <img loading="lazy" className="image-style-skill" alt={data.name} src={data.image} />
         ))}
       </div>
       <BodyLabel className="h3">{databaseHeading}</BodyLabel>
       <div className="skills-style">
         {skillsDatabase.map((data) => (
-          <img className="image-style-skill" alt={data.name} src={data.image} />
+          <img loading="lazy" className="image-style-skill" alt={data.name} src={data.image} />
         ))}
       </div>
       <BodyLabel className="h3">{webTechnologiesHeading}</BodyLabel>
       <div className="skills-style">
         {skillsWebTech.map((data) => (
-          <img className="image-style-skill" alt={data.name} src={data.image} />
+          <img loading="lazy" className="image-style-skill" alt={data.name} src={data.image} />
         ))}
       </div>
       <BodyLabel className="h3">{toolsHeading}</BodyLabel>
       <div className="skills-style">
         {skillsTools.map((data) => (
-          <img className="image-style-skill" alt={data.name} src={data.image} />
+          <img loading="lazy" className="image-style-skill" alt={data.name} src={data.image} />
         ))}
       </div>
     </div>
