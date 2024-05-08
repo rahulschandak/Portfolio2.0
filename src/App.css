@@ -1,8 +1,45 @@
-hr {
+.hr {
   width: 100%;
   margin: 0;
 }
 
 div {
   font-family: "Alegreya SC", serif;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Styles for the LinkedIn button */
+.wd-button-font {
+  color: white;
+  text-decoration: none;
+}
+
+.wd-button-font:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wd-border-right {
+  color: black;
+  border-right: solid;
+  border-width: thick;
 }
