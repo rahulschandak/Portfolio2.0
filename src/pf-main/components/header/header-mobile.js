@@ -5,10 +5,7 @@ import BodyLabel from "../common/body-label";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {
-  faBars,
-  faCircleXmark
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
 function HeaderMobile() {
   let navigate = useNavigate();
@@ -28,16 +25,15 @@ function HeaderMobile() {
         <img src="images\Logo.png" alt="ProfilePic" className="logo-size" />
         <BodyLabel className="article padding-left">Rahul</BodyLabel>
       </div>
-
-      <div onClick={handleNavIconClick}>
-        {showNavBar ? (
-          <div className="navbar-container">
-            <FontAwesomeIcon
-              onClick={handleNavIconClick}
-              icon={faCircleXmark}
-              size="2x"
-            />
-            <div className={`navbar opened`}>
+      <div className="nav-icon" onClick={handleNavIconClick}>
+        <FontAwesomeIcon
+          onClick={handleNavIconClick}
+          icon={showNavBar ? faCircleXmark : faBars}
+          size="2x"
+        />
+        {showNavBar && (
+          <div className={`navbar-container`}>
+            <div className="navbar opened">
               <ul>
                 <li>
                   <NavLink to="/home">Home</NavLink>
@@ -63,12 +59,6 @@ function HeaderMobile() {
               </ul>
             </div>
           </div>
-        ) : (
-          <FontAwesomeIcon
-            onClick={handleNavIconClick}
-            icon={faBars}
-            size="2x"
-          />
         )}
       </div>
     </div>

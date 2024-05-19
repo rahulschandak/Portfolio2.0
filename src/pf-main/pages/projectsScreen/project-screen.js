@@ -107,8 +107,8 @@ function SimpleSlider() {
 
   return (
     <>
-      <BodyLabel className="h3 header-style">My Projects</BodyLabel>
-      <div className="slider-box slider-container ">
+      <BodyLabel className="h2 header-style">My Projects</BodyLabel>
+      <div className="slider-box slider-container">
         <Slider
           ref={(slider) => {
             sliderRef = slider;

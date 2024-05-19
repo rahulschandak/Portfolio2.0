@@ -1,4 +1,8 @@
 .bullet-text-style {
   text-align: justify;
   font-family: roboto;
+
+  @media screen and (max-width: 768px) {
+    text-align: left;
+  }
 }

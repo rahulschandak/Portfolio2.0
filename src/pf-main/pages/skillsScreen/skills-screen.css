@@ -5,10 +5,9 @@
   margin-right: 5%;
 }
 
-.heading-style {
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
+.header-style {
+  padding: 2rem 0 2rem 0;
+  align-self: center;
 }
 
 .skills-style {

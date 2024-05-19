@@ -21,7 +21,6 @@
   border-style: solid;
   border-color: white;
   border-width: 0.5rem 0.25rem 0.5rem 0.25rem;
-  /* background-image: linear-gradi); */
 
   @media screen and (max-width: 1280px) {
     height: 32rem;
@@ -40,7 +39,7 @@
   }
 
   @media screen and (max-width: 480px) {
-    height: 38rem;
+    height: 45rem;
   }
 
   .card-header-row {

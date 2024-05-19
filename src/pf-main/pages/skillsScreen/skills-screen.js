@@ -151,7 +151,7 @@ function SkillsScreen() {
 
   return (
     <div className="skills-container">
-      <BodyLabel className="h2 heading-style">
+      <BodyLabel className="h2 header-style">
         <FontAwesomeIcon icon={faScrewdriverWrench} /> &nbsp;
         {heading}
       </BodyLabel>
