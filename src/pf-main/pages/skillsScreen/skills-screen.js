@@ -114,6 +114,11 @@ function SkillsScreen() {
       name: "Axure",
       image: require("./images/Axure.png"),
     },
+    {
+      id: 9,
+      name: "Figma",
+      image: require("./images/Figma.png"),
+    },
   ];
 
   const skillsWebTech = [

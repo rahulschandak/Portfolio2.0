@@ -56,6 +56,10 @@
   font-style: normal;
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .body-text {
@@ -63,6 +67,21 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
+}
+
+
+.body-text-small {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.description-text {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 .title-style {

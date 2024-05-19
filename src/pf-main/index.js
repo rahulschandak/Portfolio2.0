@@ -7,7 +7,6 @@ import Footer from "./components/footer/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Portfolio() {
-
   const [showPopup, setShowPopup] = useState(true);
   useEffect(() => {
     const visitedBefore = localStorage.getItem("visitedBefore");
@@ -25,14 +24,17 @@ function Portfolio() {
     <ScreenSizeProvider>
       <Header />
       <hr className="hr" />
-      <Body />
-      <Footer />
+      <div className="background-style">
+        <Body />
+        <Footer />
+      </div>
       {showPopup && (
         <div className="popup-overlay">
           <div className="popup">
             <p>
               This website is a ground-up creation, entirely designed from
-              scratch by Rahul Chandak. (View this on a desktop for the best experience).
+              scratch by Rahul Chandak. (View this on a desktop for the best
+              experience).
             </p>
             <p>
               It remains an ongoing project, constantly evolving with frequent
@@ -43,16 +45,16 @@ function Portfolio() {
                 Proceed to website
               </button>
             </p>
-            <p>
-              Looking to connect professionally? Drop a text on LinkedIn.
-            </p>
+            <p>Looking to connect professionally? Drop a text on LinkedIn.</p>
             <button className="btn btn-primary">
               <a
                 href="https://www.linkedin.com/in/rahulschandak/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="wd-button-font"
-              >LinkedIn</a>
+              >
+                LinkedIn
+              </a>
             </button>
           </div>
         </div>

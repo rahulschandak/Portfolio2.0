@@ -43,3 +43,8 @@ div {
   border-right: solid;
   border-width: thick;
 }
+
+.background-style {
+  /* background-image: linear-gradient(to bottom, white, blue); */
+  background-color: #9aaebc;
+}
