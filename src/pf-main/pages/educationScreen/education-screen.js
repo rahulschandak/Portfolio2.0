@@ -17,6 +17,8 @@ function EducationScreen() {
         { field: "Location", value: "Boston, MA" },
         { field: "GPA", value: "3.91/ 4.0" },
       ],
+      transcript:
+        "https://drive.google.com/file/d/12subWrxgFbvK-BjbaquHaqrRViKdELyQ/view",
     },
     {
       university: "University of Mumbai | Completed",
@@ -28,6 +30,8 @@ function EducationScreen() {
         { field: "Location", value: "Mumbai, India" },
         { field: "GPA", value: "8.49/ 10.0" },
       ],
+      transcript:
+        "https://drive.google.com/file/d/1VZNo-TjMDrdgvUj0aVDRl2JeM0yuCeWb/view",
     },
   ];
 
@@ -47,9 +51,14 @@ function EducationScreen() {
                 </div>
               </>
             ))}
-            <div className="transcript-style">
-              <BodyLabel className="h4">Transcript</BodyLabel>
-            </div>
+              <a
+                href={education.transcript}
+                target="_blank"
+                rel="noreferrer"
+                className="transcript-style"
+              >
+                Transcript
+              </a>
           </Card>
         ))}
       </div>

@@ -35,7 +35,9 @@ function HomeScreen() {
             alt="LinkedIn"
           />
         </div>
-        <button className="button-style"> Resume </button>
+        <a href="https://tinyurl.com/rscBio" target="_blank" rel="noreferrer">
+          <button className="button-style"> Resume </button>
+        </a>
       </div>
       <div className="image-container">
         <img
@@ -84,7 +86,6 @@ function HomeScreen() {
         </div>
         <button className="button-style"> Resume </button>
       </div>
-      
     </div>
   );
 }

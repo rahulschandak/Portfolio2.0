@@ -3,8 +3,12 @@ import Slider from "react-slick";
 import "./project-screen.css";
 import BodyLabel from "../../components/common/body-label";
 import StringToBullets from "../../components/stringToBullets/stringToBullets";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
-function SimpleSlider() {
+function ProjectScreen() {
+  const heading = " My Projects";
+
   let sliderRef = useRef(null);
   const next = () => {
     sliderRef.slickNext();
@@ -107,7 +111,10 @@ function SimpleSlider() {
 
   return (
     <>
-      <BodyLabel className="h2 header-style">My Projects</BodyLabel>
+      <BodyLabel className="h2 header-style">
+        <FontAwesomeIcon icon={faBriefcase} /> &nbsp;
+        {heading}
+      </BodyLabel>
       <div className="slider-box slider-container">
         <Slider
           ref={(slider) => {
@@ -147,4 +154,4 @@ function SimpleSlider() {
   );
 }
 
-export default SimpleSlider;
+export default ProjectScreen;

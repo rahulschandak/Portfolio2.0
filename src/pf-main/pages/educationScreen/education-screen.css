@@ -42,4 +42,6 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 1.5rem;
+  cursor: pointer;
+  color: blue;
 }

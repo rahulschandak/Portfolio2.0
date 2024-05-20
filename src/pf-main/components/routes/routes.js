@@ -13,7 +13,6 @@ function Body() {
     <div className="body-container">
       <Routes>
         <Route path="" element={<HomeScreen />} />
-        <Route path="/home" element={<HomeScreen />} />
         <Route path="/about" element={<AboutScreen />} />
         <Route path="/education" element={<EducationScreen />} />
         <Route path="/work" element={<WorkScreen />} />

@@ -10,7 +10,7 @@ function Header() {
   const { isDesktop } = useContext(ScreenSizeContext);
   let navigate = useNavigate();
   const handleHome = () => {
-    navigate("/home");
+    navigate("/");
   };
 
   return isDesktop ? (
@@ -20,7 +20,7 @@ function Header() {
         <BodyLabel className="article padding-left">Rahul</BodyLabel>
       </div>
       <div className="menu-items">
-        <NavLink to="/home">Home</NavLink>
+        <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/education">Education</NavLink>
         <NavLink to="/work">Work</NavLink>
