@@ -66,10 +66,6 @@
     transition: color 0.3s;
   }
 
-  .navbar li a:hover {
-    color: blue;
-  }
-
   .menu-items {
     display: flex;
     align-items: baseline;

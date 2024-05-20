@@ -6,7 +6,9 @@ function Card({ children, img, title }) {
   const { isDesktop } = useContext(ScreenSizeContext);
   return (
     <div className={isDesktop ? "card-style" : "card-style-mobile"}>
-      <img alt="University" src={img} className="image-style" />
+      <div className="card-image-container">
+        <img alt="University" src={img} className="image-style" />
+      </div>
       <div className="title-style">
         <label>{title}</label>
       </div>

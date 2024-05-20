@@ -4,7 +4,7 @@ import "./../routes/routes.css";
 function Footer() {
   return (
     <div className="body-container">
-      <br />
+      <br /><br /><br /><br /><br />
     </div>
   )
 }

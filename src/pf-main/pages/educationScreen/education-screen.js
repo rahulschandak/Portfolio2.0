@@ -40,10 +40,10 @@ function EducationScreen() {
             {education.details.map((data) => (
               <>
                 <div className="univ-details-style">
-                  <BodyLabel className="h4 field-style">
+                  <BodyLabel className="h5 field-style">
                     {data.field}:
                   </BodyLabel>
-                  <BodyLabel className="h4 value-style">{data.value}</BodyLabel>
+                  <BodyLabel className="h5 value-style">{data.value}</BodyLabel>
                 </div>
               </>
             ))}

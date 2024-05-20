@@ -136,7 +136,7 @@ function SimpleSlider() {
         </Slider>
         <div style={{ textAlign: "center" }}>
           <button className="pagination-button-style" onClick={previous}>
-            Previous
+            Prev
           </button>
           <button className="pagination-button-style" onClick={next}>
             Next
