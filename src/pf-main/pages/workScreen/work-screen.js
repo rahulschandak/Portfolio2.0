@@ -38,7 +38,7 @@ function WorkScreen() {
     // },
   ];
   return (
-    <>
+    <div className="work-container">
       <BodyLabel className="h3 header-style">My Professional Career</BodyLabel>
       <div className={isDesktop ? "card-container" : "card-container-mobile"}>
         {workData.map((education) => (
@@ -56,7 +56,7 @@ function WorkScreen() {
           </Card>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 export default WorkScreen;

@@ -45,6 +45,7 @@ div {
 }
 
 .background-style {
-  /* background-image: linear-gradient(to bottom, white, blue); */
+  /* background-image: linear-gradient(to bottom, rgb(92, 102, 235), lightgray); */
   background-color: #9aaebc;
+  min-height: 100vh
 }

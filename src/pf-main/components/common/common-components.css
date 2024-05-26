@@ -79,7 +79,8 @@
 
 .description-text {
   font-family: "Baskervville", serif;
-  font-weight: 400;
+  color: black;
+  font-weight: 500;
   font-style: normal;
   font-size: 1rem;
 }

@@ -30,7 +30,7 @@ function Portfolio() {
       </div>
       {showPopup && (
         <div className="popup-overlay">
-          <div className="popup">
+          <div className="popup description-text">
             <p>
               This website is a ground-up creation, entirely designed from
               scratch by Rahul Chandak. (View this on a desktop for the best
