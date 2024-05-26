@@ -96,8 +96,8 @@ function AboutScreen() {
       </div>
 
       <div className="section-style">
-        <BodyLabel className="h3">{subHeading1}</BodyLabel>
-        <BodyLabel className="description-text">{quote}</BodyLabel>
+        <BodyLabel className="h3">{subHeading1}</BodyLabel> <br />
+        <BodyLabel className="description-text">{quote}</BodyLabel> <br />
         <BodyLabel className="description-text">{author}</BodyLabel>
       </div>
     </div>
