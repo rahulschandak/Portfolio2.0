@@ -85,7 +85,7 @@ function AboutScreen() {
       <div className="section-style">
         <BodyLabel className="h3">{future}</BodyLabel>
         <BodyLabel className="description-text">{futureDesc}</BodyLabel>
-        <div className={isDesktop ? "image-container-about" : "image-container-about-mobile"}>
+        <div className="image-container-about">
           <img
             loading="lazy"
             className="image-style-about-2"

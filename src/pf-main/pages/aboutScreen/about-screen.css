@@ -31,6 +31,12 @@
     border: solid 0.1rem;
     border-color: blue;
     box-shadow: -0.25rem 0.25rem 0.5rem rgb(72, 72, 72);
+
+    @media screen and (max-width: 768px) {
+        margin: 2rem 0;
+        height: auto;
+        width: 15rem;
+      }
   }
 
   .image-style-about-2 {
@@ -40,4 +46,10 @@
     border: solid 0.1rem;
     border-color: blue;
     box-shadow: -0.25rem 0.25rem 0.5rem rgb(72, 72, 72);
+
+    @media screen and (max-width: 768px) {
+        margin: 2rem 0;
+        height: auto;
+        width: 15rem;
+      }
   }
