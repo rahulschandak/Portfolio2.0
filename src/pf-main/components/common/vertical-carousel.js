@@ -1,9 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 import Slider from "react-slick";
-import BodyLabel from "./body-label";
-import StringToBullets from "../stringToBullets/stringToBullets";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 function VerticalCarousel({ children }) {
 
