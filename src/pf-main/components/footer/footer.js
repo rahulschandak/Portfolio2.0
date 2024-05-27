@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./footer.css";
 import BodyLabel from "../common/body-label";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
