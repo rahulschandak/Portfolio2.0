@@ -7,13 +7,10 @@ import { NavLink } from "react-router-dom";
 import ScreenSizeContext from "../common/screen-size";
 
 function Footer() {
-  const { isDesktop } = useContext(ScreenSizeContext);
-
   const heading = "Rahul’s Portfolio";
   const subHeading =
     "Thanks for stopping by my portfolio! Let's connect on social media!";
   const quickLinks = "Quick Links";
-  const contactInfo = "Contact Information";
   const email = "chandak.r@northeastern.edu";
   const phoneNo = "+1 857-313-1986";
   const location = "Boston, MA";
