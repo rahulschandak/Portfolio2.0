@@ -32,7 +32,7 @@ function Portfolio() {
         <div className="popup-overlay">
           <div className="popup description-text">
             <p>
-              This website is a ground-up creation, entirely designed from
+              This website is a ground-up creation, designed from
               scratch by Rahul Chandak. (View this on a desktop for the best
               experience).
             </p>

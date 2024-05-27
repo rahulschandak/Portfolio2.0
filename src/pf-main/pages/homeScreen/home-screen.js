@@ -2,13 +2,18 @@ import React, { useContext } from "react";
 import ScreenSizeContext from "../../components/common/screen-size";
 import BodyLabel from "../../components/common/body-label";
 import "./home-screen.css";
+import VerticalCarousel from "../../components/common/vertical-carousel";
 
 function HomeScreen() {
   const { isDesktop } = useContext(ScreenSizeContext);
 
   const heading = "Hello World,";
   const subHeading = "I am Rahul Chandak";
-  const subTitle = "A Master's in Computer Science student at NEU";
+  const subTitle = [
+    "An MS-CS Student at NEU, Boston",
+    "An SDE Intern at Liberty Mutual",
+    "A Problem Solver",
+  ];
 
   const socialMediaData = [
     {
@@ -38,9 +43,13 @@ function HomeScreen() {
       <div className="text-container">
         <BodyLabel className="h2">{heading}</BodyLabel>
         <BodyLabel className="h2">{subHeading}</BodyLabel>
-        <BodyLabel className="body-text-small padding-top">
-          {subTitle}
-        </BodyLabel>
+        <VerticalCarousel>
+          {subTitle.map((subTitle) => (
+            <BodyLabel className="h3">
+              {subTitle}
+            </BodyLabel>
+          ))}
+        </VerticalCarousel>
         <div className="social-media-container">
           {socialMediaData.map((socialMedia) => (
             <a href={socialMedia.link} target="_blank" rel="noreferrer">
@@ -76,9 +85,13 @@ function HomeScreen() {
       <div className="text-container-mobile">
         <BodyLabel className="h3">{heading}</BodyLabel>
         <BodyLabel className="h3">{subHeading}</BodyLabel>
-        <BodyLabel className="body-text-small padding-top">
-          {subTitle}
-        </BodyLabel>
+        <VerticalCarousel>
+          {subTitle.map((subTitle) => (
+            <BodyLabel className="h3">
+              {subTitle}
+            </BodyLabel>
+          ))}
+        </VerticalCarousel>
         <div className="social-media-container">
           {socialMediaData.map((socialMedia) => (
             <a href={socialMedia.link} target="_blank" rel="noreferrer">
