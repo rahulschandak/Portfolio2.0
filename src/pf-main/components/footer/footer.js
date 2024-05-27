@@ -4,7 +4,6 @@ import BodyLabel from "../common/body-label";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import ScreenSizeContext from "../common/screen-size";
 
 function Footer() {
   const heading = "Rahul’s Portfolio";
