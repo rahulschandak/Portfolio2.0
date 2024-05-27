@@ -45,7 +45,7 @@ function HomeScreen() {
         <BodyLabel className="h2">{subHeading}</BodyLabel>
         <VerticalCarousel>
           {subTitle.map((subTitle) => (
-            <BodyLabel className="h3">
+            <BodyLabel className="slider-style">
               {subTitle}
             </BodyLabel>
           ))}
@@ -87,7 +87,7 @@ function HomeScreen() {
         <BodyLabel className="h3">{subHeading}</BodyLabel>
         <VerticalCarousel>
           {subTitle.map((subTitle) => (
-            <BodyLabel className="h3">
+            <BodyLabel className="slider-style">
               {subTitle}
             </BodyLabel>
           ))}
