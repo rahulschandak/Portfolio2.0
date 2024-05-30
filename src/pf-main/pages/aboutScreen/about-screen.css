@@ -29,7 +29,7 @@
     height: 15rem;
     border-radius: 2rem;
     border: solid 0.1rem;
-    border-color: blue;
+    border-color: #10142c;
     box-shadow: -0.25rem 0.25rem 0.5rem rgb(72, 72, 72);
 
     @media screen and (max-width: 768px) {
@@ -44,7 +44,7 @@
     max-height: 20rem;
     border-radius: 2rem;
     border: solid 0.1rem;
-    border-color: blue;
+    border-color: #10142c;
     box-shadow: -0.25rem 0.25rem 0.5rem rgb(72, 72, 72);
 
     @media screen and (max-width: 768px) {

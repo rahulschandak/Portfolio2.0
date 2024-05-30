@@ -31,7 +31,7 @@
     margin-top: 6.5rem;
     width: 50%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #10142c;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -90,9 +90,9 @@
   }
   
   a.active {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    color: blue;
+    color: #10142c;
 
     @media screen and (max-width: 1024px) {
       font-size: 1.5rem;

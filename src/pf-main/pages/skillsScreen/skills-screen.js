@@ -2,7 +2,6 @@ import React from "react";
 import "./skills-screen.css";
 import BodyLabel from "../../components/common/body-label";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 
 function SkillsScreen() {

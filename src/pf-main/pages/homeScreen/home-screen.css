@@ -50,7 +50,6 @@
   height: 30rem;
   justify-content: center;
   align-items: center;
-  padding-left: 5%;
 
   @media screen and (max-width: 1024px) {
     height: 20rem;
@@ -87,4 +86,5 @@
 
 .slider-style {
   font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 500;
 }

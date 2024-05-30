@@ -1,5 +1,5 @@
 import React from "react";
-import "./common-components.css"; // Make sure to import your CSS file here
+import "./common-components.css";
 
 function BodyLabel({ children, className }) {
     return (
