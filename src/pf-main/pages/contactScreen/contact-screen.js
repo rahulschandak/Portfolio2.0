@@ -66,8 +66,8 @@ function ContactsScreen() {
   return (
     <div className={styles["contact-container"]}>
       <div className={styles["first-column"]}>
-        <BodyLabel className="h2">{heading}</BodyLabel> &nbsp; &nbsp;{" "}
-        <FontAwesomeIcon icon={faComment} className={styles["icon-style2"]} />
+        <BodyLabel className="h2">{heading}</BodyLabel> &nbsp; &nbsp;
+        <FontAwesomeIcon icon={faComment} className={styles["icon-style2"]} /><br />
         <BodyLabel className="h2">
           {subHeading}{" "}
           <FontAwesomeIcon
