@@ -38,6 +38,25 @@ function HomeScreen() {
     },
   ];
 
+  const renderFlipCard = () => {
+    return (
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
+            <img
+              src="images\ProfilePic.png"
+              className="img-style"
+              alt="ProfilePic"
+            />
+          </div>
+          <div className="flip-card-back">
+            <img src="images\Logo_Dark.png" className="img-style" alt="Logo" />
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return isDesktop ? (
     <div className="page-container">
       <div className="text-container">
@@ -45,9 +64,7 @@ function HomeScreen() {
         <BodyLabel className="h2">{subHeading}</BodyLabel>
         <VerticalCarousel>
           {subTitle.map((subTitle) => (
-            <BodyLabel className="slider-style">
-              {subTitle}
-            </BodyLabel>
+            <BodyLabel className="slider-style">{subTitle}</BodyLabel>
           ))}
         </VerticalCarousel>
         <div className="social-media-container">
@@ -65,31 +82,24 @@ function HomeScreen() {
           <button className="button-style"> Resume </button>
         </a>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <img
           src="images\ProfilePic.png"
           className="img-style"
           alt="Profile Pic"
         />
-      </div>
+      </div> */}
+      <div className="image-container">{renderFlipCard()}</div>
     </div>
   ) : (
     <div className="page-container-mobile">
-      <div className="image-container-mobile">
-        <img
-          src="images\ProfilePic.png"
-          className="img-style"
-          alt="Profile Pic"
-        />
-      </div>
+      <div className="image-container-mobile">{renderFlipCard()}</div>
       <div className="text-container-mobile">
         <BodyLabel className="h3">{heading}</BodyLabel>
         <BodyLabel className="h3">{subHeading}</BodyLabel>
         <VerticalCarousel>
           {subTitle.map((subTitle) => (
-            <BodyLabel className="slider-style">
-              {subTitle}
-            </BodyLabel>
+            <BodyLabel className="slider-style">{subTitle}</BodyLabel>
           ))}
         </VerticalCarousel>
         <div className="social-media-container">
