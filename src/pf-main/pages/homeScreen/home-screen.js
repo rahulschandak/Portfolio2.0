@@ -82,13 +82,6 @@ function HomeScreen() {
           <button className="button-style"> Resume </button>
         </a>
       </div>
-      {/* <div className="image-container">
-        <img
-          src="images\ProfilePic.png"
-          className="img-style"
-          alt="Profile Pic"
-        />
-      </div> */}
       <div className="image-container">{renderFlipCard()}</div>
     </div>
   ) : (
@@ -113,7 +106,9 @@ function HomeScreen() {
             </a>
           ))}
         </div>
-        <button className="button-style"> Resume </button>
+        <a href="https://tinyurl.com/rscBio" target="_blank" rel="noreferrer">
+          <button className="button-style"> Resume </button>
+        </a>
       </div>
     </div>
   );
