@@ -12,7 +12,7 @@ function HeaderMobile() {
   const [showNavBar, setShowNavBar] = useState(false);
 
   const handleHome = () => {
-    navigate("/home");
+    navigate("/");
   };
 
   const handleNavIconClick = () => {
