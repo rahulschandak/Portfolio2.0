@@ -47,7 +47,7 @@ function Footer() {
     {
       name: "LinkedIn",
       source: "images/linkedIn.png",
-      link: "https://www.instagram.com/rahulschandak/",
+      link: "https://www.linkedin.com/in/rahulschandak/",
     },
     {
       name: "Github",
