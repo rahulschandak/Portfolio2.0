@@ -11,8 +11,8 @@ function WorkScreen() {
       organisation: "Liberty Mutual Insurance",
       image: "images\\LM.png",
       details: [
-        { field: "Role", value: "SDE Intern" },
-        { field: "Duration", value: "Jan 2024 - Present" },
+        { field: "Role", value: "SDE Co-op" },
+        { field: "Duration", value: "Jan 2024 - Aug 2024" },
         { field: "Location", value: "Boston, MA" },
         { field: "Tools", value: "ReactJS, NodeJS, GraphQL, PostgresSQL, Cypress, GitHub" },
       ],

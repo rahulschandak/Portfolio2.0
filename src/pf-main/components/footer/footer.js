@@ -14,7 +14,7 @@ function Footer() {
   const phoneNo = "+1 857-313-1986";
   const location = "Boston, MA";
   const conclusionStatement =
-    "Designed and Developed by Rahul Chandak | Last updated: May, 2024";
+    "Designed and Developed by Rahul Chandak | Last updated: Oct, 2024";
 
   const links = [
     {
