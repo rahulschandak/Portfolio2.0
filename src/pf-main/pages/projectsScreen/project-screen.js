@@ -86,7 +86,7 @@ function ProjectScreen() {
       title: "COVER LETTER GENERATOR ",
       tools: "React.js, CSS",
       description:
-        "Developed a full-stack desktop application simulating a supermarket management system where customers and employees can log in and perform dedicated tasks. Designed a relational database and performed 5 CRUD operations involving stored procedures, functions, and triggers. Utilized JDBC driver to integrate the database with GUI ensuring seamless data management and retrieval.",
+        "Built a web app to automate the repetitive process of editing company names, job roles, dates, etc in a cover letter template, reducing errors and saving time. Enabled a streamlined application process, improving accuracy across 200+ job applications by replacing common content quickly.",
       github: "https://www.github.com/rahulschandak/CoverLetterGen",
     },
     {

@@ -11,8 +11,8 @@ function HomeScreen() {
   const subHeading = "I am Rahul Chandak";
   const subTitle = [
     "An MS-CS Student at NEU, Boston",
-    "Ex SDE at Liberty Mutual",
-    "Ex SDE at TCS",
+    "Ex-SDE at Liberty Mutual",
+    "Ex-SDE at TCS",
     "A Problem Solver",
   ];
 
